@@ -1,0 +1,63 @@
+---
+title: "Jiakai Chen"
+---
+
+::: {.site-shell}
+::: {.profile-rail}
+
+<div class="rail-brand">Jiakai Chen</div>
+
+<nav class="rail-nav">
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+</nav>
+
+<div class="rail-footer">© 2026 Jiakai Chen</div>
+
+:::
+
+::: {.main-column}
+
+<section id="about" class="content-card">
+<h2>About</h2>
+<div class="about-layout">
+<div class="about-intro">
+![](assets/img/profile.jpg){.profile-avatar}
+<div class="about-details">
+<p>I am a Master of Computer Science student at the University of Illinois Urbana-Champaign, with broad interests in multimodal representation learning, robot learning, and embodied AI. I am currently a research intern at the Rehg Lab at UIUC, where I work on pose estimation from real-world visual data. Prior to UIUC, I received a bachelor’s degree in Financial Technology, with a second major in Computer Science, from the University of Hong Kong, and a master’s degree in Business Research from the University of Rochester.</p>
+</div>
+</div>
+<div class="about-meta">
+<p>
+<span class="meta-item"><i class="bi bi-envelope"></i> jiakaic3 [at] illinois [dot] edu</span>
+<span class="meta-sep">·</span>
+<span class="meta-item"><i class="bi bi-github"></i> <a href="https://github.com/jiaka1chen">@jiaka1chen</a></span>
+<span class="meta-sep">·</span>
+<span class="meta-item"><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/jiaka1chen">LinkedIn</a></span>
+<span class="meta-sep">·</span>
+<span class="meta-item"><i class="bi bi-file-earmark-text"></i> <a href="assets/pdf/CV.pdf" target="_blank">Resume</a></span>
+</p>
+</div>
+</div>
+</section>
+
+<section id="projects" class="content-card">
+<h2>Selected Projects</h2>
+<div class="item-list">
+<article>
+<h3>ProCLIP</h3>
+<p>Product-space geometric representation learning for stronger multimodal alignment across language and vision.</p>
+</article>
+<article>
+<h3>Child Pose Estimation</h3>
+<p>Vision pipelines for robust child pose and activity understanding in noisy, real-world developmental settings.</p>
+</article>
+<article>
+<h3>Robotic Manipulation</h3>
+<p>RGB-D perception, grasp detection, and ROS-based planning for manipulation in tabletop and semi-structured tasks.</p>
+</article>
+</div>
+</section>
+
+:::
+:::

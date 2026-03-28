@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jiakai Chen",
+    "section": "",
+    "text": "Jiakai Chen\n\n\nAbout Projects\n\n\n© 2026 Jiakai Chen\n\n\n\n\n\nAbout\n\n\n\n\n\n\nI am a Master of Computer Science student at the University of Illinois Urabana-Champaign, with interests spanning multimodal representation learning, robot learning, and embodied AI. I am currently a reserach intern at Rehg Lab at UIUC. Previously, I obtained\n\n\n\n\n\n jiakaic3 [at] illinois [dot] edu ·  @jiaka1chen ·  LinkedIn ·  Resume\n\n\n\n\n\n\nSelected Projects\n\n\n\n\nProCLIP\n\n\nProduct-space geometric representation learning for stronger multimodal alignment across language and vision.\n\n\n\n\nChild Pose Estimation\n\n\nVision pipelines for robust child pose and activity understanding in noisy, real-world developmental settings.\n\n\n\n\nRobotic Manipulation\n\n\nRGB-D perception, grasp detection, and ROS-based planning for manipulation in tabletop and semi-structured tasks."
+  }
+]
