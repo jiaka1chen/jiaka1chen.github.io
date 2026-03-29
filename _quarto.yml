@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+resources:
+  - google123abc456.html
+
 website:
   title: "Jiakai Chen"
   navbar:
