@@ -7,20 +7,6 @@ resources:
 
 website:
   title: "Jiakai Chen"
-  navbar:
-    pinned: true
-    right:
-      - text: About
-        href: "#about"
-      - text: Research
-        href: "#research"
-      - text: Projects
-        href: "#projects"
-      - text: Contact
-        href: "#contact"
-  page-footer:
-    left: "© 2026 Jiakai Chen"
-    right: "Built with Quarto"
 
 format:
   html:

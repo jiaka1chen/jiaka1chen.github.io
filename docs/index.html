@@ -43,11 +43,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -75,48 +75,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Jiakai Chen</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./#about"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./#research"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./#projects"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./#contact"> 
-<span class="menu-text">Contact</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -148,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 Jiakai Chen
 </div>
 <nav class="rail-nav">
-<a href="#about">About</a> <a href="#projects">Projects</a>
+<a href="#about">About</a> <a href="#research-interest">Research</a> <a href="#projects">Projects</a>
 </nav>
 <div class="rail-footer">
 © 2026 Jiakai Chen
@@ -175,6 +138,25 @@ I am a Master of Computer Science student at the University of Illinois Urbana-C
 </div>
 </div>
 </section>
+<section id="research-interest" class="content-card">
+<h2 class="anchored">
+Research Interest
+</h2>
+<p>
+My research interests lie in multimodal representation learning, robot learning, and embodied AI, with an emphasis on building unified frameworks that connect perception, representation, and action. I focus on geometry-aware and structure-preserving representations for modeling heterogeneous multimodal data. My ultimate goal is to enable scalable transfer from visual data to real-world robotic systems, advancing generalizable and physically grounded embodied intelligence.
+</p>
+<ul class="interest-list">
+<li>
+<strong>Learning transferable action representations from video:</strong> Addressing data scarcity in robot learning by extracting reusable motion priors from large-scale human videos, including pose estimation and latent action abstraction for cross-embodiment transfer.
+</li>
+<li>
+<strong>Geometry-aware multimodal alignment:</strong> Developing representation spaces that capture heterogeneous semantics via mixed geometries, and enabling dynamic alignment across modalities at multiple levels.
+</li>
+<li>
+<strong>Towards unified representation and generation:</strong> Exploring frameworks that integrate representation learning with generative modeling to capture both structure and dynamics of the world.
+</li>
+</ul>
+</section>
 <section id="projects" class="content-card">
 <h2 class="anchored">
 Selected Projects
@@ -182,10 +164,13 @@ Selected Projects
 <div class="item-list">
 <article>
 <h3 class="anchored">
-ProCLIP
+ProCLIP: Product Space Multimodal Contrastive Alignment
 </h3>
+<p class="project-meta">
+<em>Jiakai Chen and Hangke Sui.</em> <em>ICLR 2026 GRaM Workshop.</em> <a class="paper-link" href="https://openreview.net/pdf?id=Sp3BrGpo5w" target="_blank">[paper]</a>
+</p>
 <p>
-Product-space geometric representation learning for stronger multimodal alignment across language and vision.
+This work challenges the standard single-manifold assumption in multimodal learning by introducing a mixed-curvature product space that models hierarchical, angular, and continuous semantics in a unified framework. By replacing cosine similarity with a geometry-aware metric, it provides a principled and lightweight drop-in improvement to CLIP-style models. The approach consistently outperforms single-geometry baselines on image–text retrieval tasks.
 </p>
 </article>
 </div>
@@ -597,19 +582,6 @@ Product-space geometric representation learning for stronger multimodal alignmen
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-<p>© 2026 Jiakai Chen</p>
-</div>   
-    <div class="nav-footer-center">
-      &nbsp;
-    </div>
-    <div class="nav-footer-right">
-<p>Built with Quarto</p>
-</div>
-  </div>
-</footer>
 
 
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
 
 :root {
   --bg: #ffffff;
@@ -125,8 +125,7 @@ main.content {
 }
 
 .content-card h2,
-.content-card h3,
-.about-details h3 {
+.content-card h3 {
   font-family: "Crimson Text", serif;
 }
 
@@ -152,12 +151,34 @@ main.content {
   color: var(--text);
 }
 
+.content-card ul {
+  margin: 0.6rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.content-card li + li {
+  margin-top: 0.45rem;
+}
+
+.content-card p.project-meta {
+  color: var(--muted);
+}
+
 .content-card a {
   color: var(--link);
   text-decoration: none;
 }
 
 .content-card a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+.content-card a.paper-link {
+  color: var(--text);
+}
+
+.content-card a.paper-link:hover {
   color: var(--link-hover);
   text-decoration: underline;
 }
@@ -180,18 +201,6 @@ main.content {
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #e5ebf5;
-}
-
-.about-details h3 {
-  margin-top: 0.05rem;
-  font-size: 1.6rem;
-  font-weight: 600;
-}
-
-.about-tagline {
-  margin-top: 0.2rem !important;
-  color: var(--muted) !important;
-  font-size: 0.96rem;
 }
 
 .about-meta {
@@ -241,36 +250,8 @@ main.content {
   border-top: 0;
 }
 
-.item-meta {
-  margin-top: 0.45rem;
-  color: #7b8596;
-  font-size: 0.84rem;
-}
-
-.stack-group + .stack-group {
-  margin-top: 0.8rem;
-}
-
-.chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.chips span {
-  display: inline-block;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 0.2rem 0.7rem;
-  font-size: 0.84rem;
-  color: #3b4353;
-  background: #fafbfd;
-}
-
 #about,
-#projects,
-#writings,
-#stack {
+#projects {
   scroll-margin-top: 20px;
 }
 
@@ -341,7 +322,4 @@ footer.footer,
     font-size: 1rem;
   }
 
-  .about-details h3 {
-    font-size: 1.35rem;
-  }
 }

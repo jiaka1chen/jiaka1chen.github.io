@@ -9,6 +9,7 @@ title: "Jiakai Chen"
 
 <nav class="rail-nav">
 <a href="#about">About</a>
+<a href="#research-interest">Research</a>
 <a href="#projects">Projects</a>
 </nav>
 
@@ -41,12 +42,23 @@ title: "Jiakai Chen"
 </div>
 </section>
 
+<section id="research-interest" class="content-card">
+<h2>Research Interest</h2>
+<p>My research interests lie in multimodal representation learning, robot learning, and embodied AI, with an emphasis on building unified frameworks that connect perception, representation, and action. I focus on geometry-aware and structure-preserving representations for modeling heterogeneous multimodal data. My ultimate goal is to enable scalable transfer from visual data to real-world robotic systems, advancing generalizable and physically grounded embodied intelligence.</p>
+<ul class="interest-list">
+<li><strong>Learning transferable action representations from video:</strong> Addressing data scarcity in robot learning by extracting reusable motion priors from large-scale human videos, including pose estimation and latent action abstraction for cross-embodiment transfer.</li>
+<li><strong>Geometry-aware multimodal alignment:</strong> Developing representation spaces that capture heterogeneous semantics via mixed geometries, and enabling dynamic alignment across modalities at multiple levels.</li>
+<li><strong>Towards unified representation and generation:</strong> Exploring frameworks that integrate representation learning with generative modeling to capture both structure and dynamics of the world.</li>
+</ul>
+</section>
+
 <section id="projects" class="content-card">
 <h2>Selected Projects</h2>
 <div class="item-list">
 <article>
-<h3>ProCLIP</h3>
-<p>Product-space geometric representation learning for stronger multimodal alignment across language and vision.</p>
+<h3>ProCLIP: Product Space Multimodal Contrastive Alignment</h3>
+<p class="project-meta"><em>Jiakai Chen and Hangke Sui.</em> <em>ICLR 2026 GRaM Workshop.</em> <a class="paper-link" href="https://openreview.net/pdf?id=Sp3BrGpo5w" target="_blank">[paper]</a></p>
+<p>This work challenges the standard single-manifold assumption in multimodal learning by introducing a mixed-curvature product space that models hierarchical, angular, and continuous semantics in a unified framework. By replacing cosine similarity with a geometry-aware metric, it provides a principled and lightweight drop-in improvement to CLIP-style models. The approach consistently outperforms single-geometry baselines on image–text retrieval tasks.</p>
 </article>
 </div>
 </section>
