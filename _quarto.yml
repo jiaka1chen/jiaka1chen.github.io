@@ -4,6 +4,8 @@ project:
 
 resources:
   - googlee24fe4eb9bc657e0.html
+  - theme-toggle.js
+  - theme-toggle.html
 
 website:
   title: "Jiakai Chen"
@@ -12,5 +14,6 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    include-after-body: theme-toggle.html
     toc: false
     smooth-scroll: true

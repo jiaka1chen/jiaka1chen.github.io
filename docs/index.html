@@ -107,11 +107,18 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="site-shell">
 <div class="profile-rail">
+<div class="rail-topbar">
 <div class="rail-brand">
 Jiakai Chen
 </div>
+<div class="rail-topbar-actions">
+<button id="menu-toggle" class="rail-menu-toggle" type="button" aria-label="Toggle navigation" title="Toggle navigation">
+<i class="bi bi-list"></i>
+</button>
+</div>
+</div>
 <nav class="rail-nav">
-<a href="#about">About</a> <a href="#research-interest">Research</a> <a href="#projects">Projects</a>
+<a href="#about">About</a> <a href="#news">News</a> <a href="#research-interest">Research</a> <a href="#projects">Projects</a> <button id="theme-toggle" class="rail-theme-toggle rail-nav-theme-toggle" type="button" aria-label="Theme: Auto" title="Theme: Auto"> <i class="bi bi-circle-half"></i> </button>
 </nav>
 <div class="rail-footer">
 © 2026 Jiakai Chen
@@ -127,7 +134,13 @@ About
 <img src="assets/img/profile.jpg" class="profile-avatar img-fluid">
 <div class="about-details">
 <p>
-I am a Master of Computer Science student at the University of Illinois Urbana-Champaign, with broad interests in multimodal representation learning, robot learning, and embodied AI. I am currently a research intern at the Rehg Lab at UIUC, where I work on pose estimation from real-world visual data. Prior to UIUC, I received a bachelor’s degree in Financial Technology, with a second major in Computer Science, from the University of Hong Kong, and a master’s degree in Business Research from the University of Rochester.
+I am a Master of Computer Science student at the University of Illinois Urbana-Champaign, with broad interests in multimodal representation learning, robot learning, and embodied AI. I am currently a research intern at the Rehg Lab at UIUC, where I work on pose estimation from real-world visual data.
+</p>
+<p>
+Prior to UIUC, I was admitted to the PhD program in Finance at the University of Rochester, where I later earned a master’s degree. Deciding to master out and restart on a new path was one of the most difficult but also one of the most important decisions in my academic journey. My training at Rochester provided me with a strong foundation in research, quantitative reasoning, and principled problem formulation. Over time, I realized that my core interests lie in AI and robotics, with the goal of building intelligent systems that can perceive, reason, and act in the real world. This experience not only shaped my research perspective, but also gave me the clarity and conviction to pursue the problems that matter most to me.
+</p>
+<p>
+I received my bachelor’s degree in Financial Technology, with a second major in Computer Science, from the University of Hong Kong, where I built a strong foundation in quantitative analysis and computing, and developed an early interest in machine learning through coursework.
 </p>
 </div>
 </div>
@@ -137,6 +150,19 @@ I am a Master of Computer Science student at the University of Illinois Urbana-C
 </p>
 </div>
 </div>
+</section>
+<section id="news" class="content-card">
+<h2 class="anchored">
+News
+</h2>
+<ul class="interest-list">
+<li>
+<strong>[Apr 2026]</strong> I will attend ICLR 2026 and am happy to connect in person. I am actively looking for research opportunities in robot learning and embodied AI.
+</li>
+<li>
+<strong>[Mar 2026]</strong> <em>ProCLIP: Product Space Multimodal Contrastive Alignment</em> was accepted to GRaM workshop @ ICLR 2026.
+</li>
+</ul>
 </section>
 <section id="research-interest" class="content-card">
 <h2 class="anchored">
@@ -167,7 +193,7 @@ Selected Projects
 ProCLIP: Product Space Multimodal Contrastive Alignment
 </h3>
 <p class="project-meta">
-<em>Jiakai Chen and Hangke Sui.</em> <em>ICLR 2026 GRaM Workshop.</em> <a class="paper-link" href="https://openreview.net/pdf?id=Sp3BrGpo5w" target="_blank">[paper]</a>
+<em>Jiakai Chen and Hangke Sui.</em> <em>GRaM Workshop @ ICLR 2026.</em> <a class="paper-link" href="https://openreview.net/pdf?id=Sp3BrGpo5w" target="_blank">[paper]</a>
 </p>
 <p>
 This work challenges the standard single-manifold assumption in multimodal learning by introducing a mixed-curvature product space that models hierarchical, angular, and continuous semantics in a unified framework. By replacing cosine similarity with a geometry-aware metric, it provides a principled and lightweight drop-in improvement to CLIP-style models. The approach consistently outperforms single-geometry baselines on image–text retrieval tasks.
@@ -181,6 +207,7 @@ This work challenges the standard single-manifold assumption in multimodal learn
 
 
 </main> <!-- /main -->
+<script src="theme-toggle.js" defer=""></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
