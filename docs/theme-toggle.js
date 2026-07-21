@@ -81,11 +81,15 @@
     const menuToggle = document.getElementById("menu-toggle");
     const nav = document.querySelector(".rail-nav");
     if (menuToggle && nav) {
-      const isMobile = () => window.matchMedia?.("(max-width: 720px)")?.matches;
-      const closeMenu = () => nav.classList.remove("open");
+      const isMobile = () => window.matchMedia?.("(max-width: 900px)")?.matches;
+      const closeMenu = () => {
+        nav.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+      };
 
       menuToggle.addEventListener("click", () => {
         nav.classList.toggle("open");
+        menuToggle.setAttribute("aria-expanded", String(nav.classList.contains("open")));
       });
 
       nav.addEventListener("click", (event) => {

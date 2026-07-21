@@ -2,93 +2,155 @@
 title: "Jiakai Chen"
 ---
 
-::: {.site-shell}
-::: {.profile-rail}
-
-<div class="rail-topbar">
-  <div class="rail-brand">Jiakai Chen</div>
-  <div class="rail-topbar-actions">
-<button id="menu-toggle" class="rail-menu-toggle" type="button" aria-label="Toggle navigation" title="Toggle navigation">
-  <i class="bi bi-list"></i>
-</button>
+```{=html}
+<div class="site-shell">
+<header class="profile-rail">
+  <div class="rail-topbar">
+    <a class="rail-brand" href="#top" aria-label="Jiakai Chen, home">
+      <span class="brand-mark" aria-hidden="true">J</span>
+      <span>Jiakai Chen</span>
+    </a>
+    <div class="rail-topbar-actions">
+      <button id="menu-toggle" class="rail-menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" title="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+    </div>
   </div>
+
+  <nav class="rail-nav" aria-label="Primary navigation">
+    <a href="#about">About</a>
+    <a href="#news">News</a>
+    <a href="#research-interest">Research</a>
+    <a href="#projects">Projects</a>
+    <button id="theme-toggle" class="rail-theme-toggle rail-nav-theme-toggle" type="button" aria-label="Theme: Auto" title="Theme: Auto">
+      <i class="bi bi-circle-half"></i>
+    </button>
+  </nav>
+</header>
+
+<div id="top" class="main-column">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-kicker">
+      <span class="status-dot" aria-hidden="true"></span>
+      Multimodal learning · Robot learning · Embodied AI
+    </div>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1 id="hero-title">Learning representations for intelligence in the physical world.</h1>
+        <p class="hero-deck">I study how machines can connect perception, representation, and action—building systems that learn from diverse visual data and transfer to real-world robots.</p>
+      </div>
+      <aside class="hero-aside">
+        <img src="assets/img/profile.jpg" class="profile-avatar" alt="Portrait of Jiakai Chen">
+        <div>
+          <span class="aside-label">Currently</span>
+          <p>Research intern at the Rehg Lab and MCS student at UIUC.</p>
+        </div>
+      </aside>
+    </div>
+    <div class="hero-contact" aria-label="Contact links">
+      <a href="mailto:jiakaic3@illinois.edu">Email <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/jiaka1chen" target="_blank">GitHub <span aria-hidden="true">↗</span></a>
+      <a href="https://www.linkedin.com/in/jiaka1chen" target="_blank">LinkedIn <span aria-hidden="true">↗</span></a>
+      <span class="hero-location">Urbana–Champaign, IL</span>
+    </div>
+  </section>
+
+  <section id="about" class="content-card section-grid">
+    <div class="section-label">
+      <span class="section-number">01</span>
+      <h2>About</h2>
+    </div>
+    <div class="section-content about-copy">
+      <p class="section-lead">I am a Master of Computer Science student at the University of Illinois Urbana-Champaign, with broad interests in multimodal representation learning, robot learning, and embodied AI.</p>
+      <div class="text-columns">
+        <p>I am currently a research intern at the Rehg Lab at UIUC, where I work on pose estimation from real-world visual data.</p>
+        <p>Prior to UIUC, I was admitted to the PhD program in Finance at the University of Rochester, where I later earned a master’s degree. Deciding to master out and restart on a new path was one of the most difficult but also one of the most important decisions in my academic journey. My training at Rochester provided me with a strong foundation in research, quantitative reasoning, and principled problem formulation. Over time, I realized that my core interests lie in AI and robotics, with the goal of building intelligent systems that can perceive, reason, and act in the real world. This experience shaped my research perspective and gave me the clarity to pursue the problems that matter most to me.</p>
+        <p>I received my bachelor’s degree in Financial Technology, with a second major in Computer Science, from the University of Hong Kong, where I built a strong foundation in quantitative analysis and computing, and developed an early interest in machine learning through coursework.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="news" class="content-card section-grid">
+    <div class="section-label">
+      <span class="section-number">02</span>
+      <h2>News</h2>
+    </div>
+    <div class="section-content news-list">
+      <article class="news-item">
+        <time datetime="2026-04">Apr 2026</time>
+        <p>I will attend ICLR 2026 and am happy to connect in person. I am actively looking for research opportunities in robot learning and embodied AI.</p>
+      </article>
+      <article class="news-item">
+        <time datetime="2026-03">Mar 2026</time>
+        <p><em>ProCLIP: Product Space Multimodal Contrastive Alignment</em> was accepted to the GRaM workshop at ICLR 2026.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="research-interest" class="content-card section-grid">
+    <div class="section-label">
+      <span class="section-number">03</span>
+      <h2>Research</h2>
+    </div>
+    <div class="section-content">
+      <p class="section-lead">My research focuses on unified frameworks that connect perception, representation, and action—toward generalizable and physically grounded embodied intelligence.</p>
+      <div class="research-list">
+        <article class="research-item">
+          <span class="research-index">A</span>
+          <div>
+            <h3>Transferable action representations from video</h3>
+            <p>Addressing data scarcity in robot learning by extracting reusable motion priors from large-scale human videos, including pose estimation and latent action abstraction for cross-embodiment transfer.</p>
+          </div>
+        </article>
+        <article class="research-item">
+          <span class="research-index">B</span>
+          <div>
+            <h3>Geometry-aware multimodal alignment</h3>
+            <p>Developing representation spaces that capture heterogeneous semantics via mixed geometries, and enabling dynamic alignment across modalities at multiple levels.</p>
+          </div>
+        </article>
+        <article class="research-item">
+          <span class="research-index">C</span>
+          <div>
+            <h3>Unified representation and generation</h3>
+            <p>Exploring frameworks that integrate representation learning with generative modeling to capture both structure and dynamics of the world.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="content-card section-grid projects-section">
+    <div class="section-label">
+      <span class="section-number">04</span>
+      <h2>Selected work</h2>
+    </div>
+    <div class="section-content item-list">
+      <article class="project-card">
+        <div class="project-topline">
+          <span>Multimodal representation learning</span>
+          <span>2026</span>
+        </div>
+        <h3>ProCLIP: Product Space Multimodal Contrastive Alignment</h3>
+        <p class="project-meta">Jiakai Chen and Hangke Sui · GRaM Workshop @ ICLR 2026</p>
+        <p class="project-description">This work challenges the standard single-manifold assumption in multimodal learning by introducing a mixed-curvature product space that models hierarchical, angular, and continuous semantics in a unified framework. By replacing cosine similarity with a geometry-aware metric, it provides a principled and lightweight drop-in improvement to CLIP-style models. The approach consistently outperforms single-geometry baselines on image–text retrieval tasks.</p>
+        <a class="project-link" href="https://openreview.net/pdf?id=Sp3BrGpo5w" target="_blank">Read the paper <span aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>Jiakai Chen <span>© 2026</span></p>
+    <p>Researching intelligence that can move through the world.</p>
+  </footer>
+</div>
 </div>
 
-<nav class="rail-nav">
-<a href="#about">About</a>
-<a href="#news">News</a>
-<a href="#research-interest">Research</a>
-<a href="#projects">Projects</a>
-<button id="theme-toggle" class="rail-theme-toggle rail-nav-theme-toggle" type="button" aria-label="Theme: Auto" title="Theme: Auto">
-  <i class="bi bi-circle-half"></i>
-</button>
-</nav>
-
-<div class="rail-footer">© 2026 Jiakai Chen</div>
-
-:::
-
-::: {.main-column}
-
-<section id="about" class="content-card">
-<h2>About</h2>
-<div class="about-layout">
-<div class="about-intro">
-![](assets/img/profile.jpg){.profile-avatar}
-<div class="about-details">
-<p>I am a Master of Computer Science student at the University of Illinois Urbana-Champaign, with broad interests in multimodal representation learning, robot learning, and embodied AI. I am currently a research intern at the Rehg Lab at UIUC, where I work on pose estimation from real-world visual data.</p>
-<p>Prior to UIUC, I was admitted to the PhD program in Finance at the University of Rochester, where I later earned a master’s degree. Deciding to master out and restart on a new path was one of the most difficult but also one of the most important decisions in my academic journey. My training at Rochester provided me with a strong foundation in research, quantitative reasoning, and principled problem formulation. Over time, I realized that my core interests lie in AI and robotics, with the goal of building intelligent systems that can perceive, reason, and act in the real world. This experience not only shaped my research perspective, but also gave me the clarity and conviction to pursue the problems that matter most to me.</p>
-<p>I received my bachelor’s degree in Financial Technology, with a second major in Computer Science, from the University of Hong Kong, where I built a strong foundation in quantitative analysis and computing, and developed an early interest in machine learning through coursework.</p>
-</div>
-</div>
-<div class="about-meta">
-<p>
-<span class="meta-item"><i class="bi bi-envelope"></i> jiakaic3 [at] illinois [dot] edu</span>
-<span class="meta-sep">·</span>
-<span class="meta-item"><i class="bi bi-github"></i> <a href="https://github.com/jiaka1chen">@jiaka1chen</a></span>
-<span class="meta-sep">·</span>
-<span class="meta-item"><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/jiaka1chen">LinkedIn</a></span>
-<span class="meta-sep">·</span>
-<span class="meta-item"><i class="bi bi-file-earmark-text"></i> <a href="assets/pdf/CV.pdf" target="_blank">Resume</a></span>
-</p>
-</div>
-</div>
-</section>
-
-<section id="news" class="content-card">
-<h2>News</h2>
-<ul class="interest-list">
-<li><strong>[Apr 2026]</strong> I will attend ICLR 2026 and am happy to connect in person. I am actively looking for research opportunities in robot learning and embodied AI.</li>
-<li><strong>[Mar 2026]</strong> <em>ProCLIP: Product Space Multimodal Contrastive Alignment</em> was accepted to GRaM workshop @ ICLR 2026.</li>
-</ul>
-</section>
-
-<section id="research-interest" class="content-card">
-<h2>Research Interest</h2>
-<p>My research interests lie in multimodal representation learning, robot learning, and embodied AI, with an emphasis on building unified frameworks that connect perception, representation, and action. I focus on geometry-aware and structure-preserving representations for modeling heterogeneous multimodal data. My ultimate goal is to enable scalable transfer from visual data to real-world robotic systems, advancing generalizable and physically grounded embodied intelligence.</p>
-<ul class="interest-list">
-<li><strong>Learning transferable action representations from video:</strong> Addressing data scarcity in robot learning by extracting reusable motion priors from large-scale human videos, including pose estimation and latent action abstraction for cross-embodiment transfer.</li>
-<li><strong>Geometry-aware multimodal alignment:</strong> Developing representation spaces that capture heterogeneous semantics via mixed geometries, and enabling dynamic alignment across modalities at multiple levels.</li>
-<li><strong>Towards unified representation and generation:</strong> Exploring frameworks that integrate representation learning with generative modeling to capture both structure and dynamics of the world.</li>
-</ul>
-</section>
-
-<section id="projects" class="content-card">
-<h2>Selected Projects</h2>
-<div class="item-list">
-<article>
-<h3>ProCLIP: Product Space Multimodal Contrastive Alignment</h3>
-<p class="project-meta"><em>Jiakai Chen and Hangke Sui.</em> <em>GRaM Workshop @ ICLR 2026.</em> <a class="paper-link" href="https://openreview.net/pdf?id=Sp3BrGpo5w" target="_blank">[paper]</a></p>
-<p>This work challenges the standard single-manifold assumption in multimodal learning by introducing a mixed-curvature product space that models hierarchical, angular, and continuous semantics in a unified framework. By replacing cosine similarity with a geometry-aware metric, it provides a principled and lightweight drop-in improvement to CLIP-style models. The approach consistently outperforms single-geometry baselines on image–text retrieval tasks.</p>
-</article>
-</div>
-</section>
-
+<div class="visitor-map" aria-hidden="true">
 <script
   type="text/javascript"
   id="mapmyvisitors"
   src="//mapmyvisitors.com/map.js?d=tvtvMBSJdRBcJ67TBiR6nYsxWCwU5pmleRkF5xjYA2s&cl=ffffff&w=260"
 ></script>
-
-:::
-:::
+</div>
+```

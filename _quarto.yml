@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 resources:
+  - assets/**
   - googlee24fe4eb9bc657e0.html
   - theme-toggle.js
   - theme-toggle.html
