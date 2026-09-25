@@ -259,11 +259,11 @@ a:focus-visible {
 .hero-copy h1 {
   margin: 0;
   font-family: "Newsreader", Georgia, serif;
-  font-size: clamp(2.8rem, 4.8vw, 4rem);
+  font-size: clamp(2.25rem, 3.7vw, 3.4rem);
   font-weight: 400;
   letter-spacing: -0.045em;
   line-height: 0.96;
-  text-wrap: balance;
+  text-wrap: normal;
 }
 
 .hero-copy {
