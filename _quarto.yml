@@ -16,9 +16,10 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    include-in-header:
+      - analytics.html
     include-after-body:
       - theme-toggle.html
       - hero-layout.html
-      - analytics.html
     toc: false
     smooth-scroll: true

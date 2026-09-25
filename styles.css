@@ -556,15 +556,6 @@ html[data-theme="dark"] .aside-vision {
   color: var(--faint);
 }
 
-.visitor-map {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-}
-
 @media (max-width: 900px) {
   .profile-rail {
     min-height: 60px;
