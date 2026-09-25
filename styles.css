@@ -22,18 +22,18 @@
 }
 
 html[data-theme="dark"] {
-  --canvas: #1a1d24;
-  --bg: #1a1d24;
-  --panel: #1a1d24;
-  --text: #e8f2f7;
-  --muted: #9fb3c1;
-  --faint: #708797;
-  --line: rgba(190, 220, 236, 0.16);
-  --line-strong: rgba(190, 220, 236, 0.4);
-  --accent: #5aabd4;
-  --accent-soft: #17384b;
-  --link: #e8f2f7;
-  --selection: #245f7e;
+  --canvas: #1c1d1c;
+  --bg: #1c1d1c;
+  --panel: #232421;
+  --text: #f0eee8;
+  --muted: #b3afa6;
+  --faint: #8d8980;
+  --line: rgba(240, 238, 232, 0.14);
+  --line-strong: rgba(240, 238, 232, 0.35);
+  --accent: #b5bdaa;
+  --accent-soft: #353a33;
+  --link: #f0eee8;
+  --selection: #c7beab;
 }
 
 html {
