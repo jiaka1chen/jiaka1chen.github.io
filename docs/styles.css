@@ -304,7 +304,7 @@ a:focus-visible {
 }
 
 .vision-copy .aside-label {
-  color: var(--text);
+  color: #000;
   font-family: "Newsreader", Georgia, serif;
 }
 
@@ -321,9 +321,15 @@ a:focus-visible {
 .aside-vision {
   max-width: 760px;
   margin: 0.55rem 0 0;
+  color: #000;
   font-family: "Newsreader", Georgia, serif;
   font-size: clamp(1.05rem, 1.4vw, 1.2rem);
   line-height: 1.55;
+}
+
+html[data-theme="dark"] .vision-copy .aside-label,
+html[data-theme="dark"] .aside-vision {
+  color: var(--text);
 }
 
 .hero-contact {
