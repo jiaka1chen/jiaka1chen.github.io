@@ -3,7 +3,6 @@
 :root {
   --canvas: #f4f6f9;
   --bg: #f4f6f9;
-  --panel: #f4f6f9;
   --text: #14232d;
   --muted: #60727e;
   --faint: #85959f;
@@ -24,7 +23,6 @@
 html[data-theme="dark"] {
   --canvas: #1c1d1c;
   --bg: #1c1d1c;
-  --panel: #232421;
   --text: #f0eee8;
   --muted: #b3afa6;
   --faint: #8d8980;
@@ -436,7 +434,7 @@ html[data-theme="dark"] .aside-vision {
 }
 
 .projects-section {
-  background: var(--panel);
+  background: var(--bg);
 }
 
 .item-list {
