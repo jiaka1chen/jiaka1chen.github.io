@@ -3,7 +3,7 @@ title: "Jiakai Chen"
 ---
 
 ```{=html}
-<div class="site-shell">
+<div id="top" class="site-shell">
 <header class="profile-rail">
   <div class="rail-topbar">
     <a class="rail-brand" href="#top" aria-label="Jiakai Chen, home">
@@ -18,30 +18,24 @@ title: "Jiakai Chen"
 
   <nav class="rail-nav" aria-label="Primary navigation">
     <a href="#about">About</a>
-    <a href="#news">News</a>
-    <a href="#research-interest">Research</a>
-    <a href="#projects">Projects</a>
+    <a href="#research-projects">Research Projects</a>
     <button id="theme-toggle" class="rail-theme-toggle rail-nav-theme-toggle" type="button" aria-label="Theme: Auto" title="Theme: Auto">
       <i class="bi bi-circle-half"></i>
     </button>
   </nav>
 </header>
 
-<div id="top" class="main-column">
+<div class="main-column">
   <section class="hero" aria-labelledby="hero-title">
-    <div class="hero-kicker">
-      Robot learning · World-action models · Multimodal representation learning
-    </div>
-    <div class="hero-grid">
+    <div class="hero-grid" style="gap: 0;">
       <div class="hero-copy">
-        <h1 id="hero-title">Learning representations for intelligence in the physical world.</h1>
-        <p class="hero-deck">I study how robots can learn structured representations and action models from visual data—connecting perception, world dynamics, and control for generalizable behavior.</p>
+        <h1 id="hero-title">Building representations for generalizable and scalable robot learning.</h1>
       </div>
-      <aside class="hero-aside">
-        <img src="assets/img/profile.jpg" class="profile-avatar" alt="Portrait of Jiakai Chen">
-        <div>
-          <span class="aside-label">Currently</span>
-          <p>Researching robot learning at UC Berkeley’s MSC Lab while completing my MCS at UIUC.</p>
+      <aside class="hero-aside" style="margin-top: clamp(3rem, 4.5vw, 3.75rem);">
+        <img src="assets/img/portrait.jpg" class="profile-avatar" width="4371" height="5369" alt="Portrait of Jiakai Chen">
+        <div class="vision-copy">
+          <span class="aside-label">Research interest</span>
+          <p class="aside-vision">I study how robots can extract <strong>reusable and transferable knowledge</strong> from human video and physical interaction. My goal is to build multimodal representations that let robots <strong>learn from internet-scale data</strong> and adapt across embodiments, objects, and tasks.</p>
         </div>
       </aside>
     </div>
@@ -49,7 +43,6 @@ title: "Jiakai Chen"
       <a href="mailto:jiakaic3@illinois.edu">Email <span aria-hidden="true">↗</span></a>
       <a href="https://github.com/jiaka1chen" target="_blank">GitHub <span aria-hidden="true">↗</span></a>
       <a href="https://www.linkedin.com/in/jiaka1chen" target="_blank">LinkedIn <span aria-hidden="true">↗</span></a>
-      <span class="hero-location">Urbana–Champaign, IL</span>
     </div>
   </section>
 
@@ -59,8 +52,8 @@ title: "Jiakai Chen"
       <h2>About</h2>
     </div>
     <div class="section-content about-copy">
-      <p class="section-lead">I am a Master of Computer Science student at the University of Illinois Urbana-Champaign, working on robot learning, world-action models, and multimodal representation learning.</p>
-      <p class="section-lead">I am currently conducting robot learning research with the MSC Lab at UC Berkeley.</p>
+      <p class="section-lead">I am a Master of Computer Science student at the University of Illinois Urbana-Champaign and am currently conducting robot learning research with the MSC Lab at UC Berkeley.</p>
+      <p class="section-lead about-opportunity"><span class="opportunity-statement">I am seeking Fall 2027 Ph.D. opportunities and industry internship opportunities in robotics.</span> I welcome conversations about research, collaborations, and other opportunities—please feel free to reach out.</p>
       <div class="text-columns">
         <p>Prior to UIUC, I was admitted to the PhD program in Finance at the University of Rochester, where I later earned a master’s degree. Deciding to master out and restart on a new path was one of the most difficult but also one of the most important decisions in my academic journey. My training at Rochester provided me with a strong foundation in research, quantitative reasoning, and principled problem formulation. Over time, I realized that my core interests lie in AI and robotics, with the goal of building intelligent systems that can perceive, reason, and act in the real world. This experience not only shaped my research perspective, but also gave me the clarity and conviction to pursue the problems that matter most to me.</p>
         <p>I received my bachelor’s degree in Financial Technology, with a second major in Computer Science, from the University of Hong Kong, where I built a strong foundation in quantitative analysis and computing, and developed an early interest in machine learning through coursework.</p>
@@ -68,80 +61,47 @@ title: "Jiakai Chen"
     </div>
   </section>
 
-  <section id="news" class="content-card section-grid">
+  <section id="research-projects" class="content-card section-grid projects-section">
     <div class="section-label">
       <span class="section-number">02</span>
-      <h2>News</h2>
-    </div>
-    <div class="section-content news-list">
-      <article class="news-item">
-        <time datetime="2026-05">May 2026</time>
-        <p>I joined the MSC Lab at UC Berkeley as a Research Intern, working on robot learning. Feel free to reach out to chat about research or potential collaborations.</p>
-      </article>
-      <article class="news-item">
-        <time datetime="2026-04">Apr 2026</time>
-        <p>Our work, <em>ProCLIP: Product Space Multimodal Contrastive Alignment</em>, was accepted to the GRaM Workshop at ICLR 2026.</p>
-      </article>
-    </div>
-  </section>
-
-  <section id="research-interest" class="content-card section-grid">
-    <div class="section-label">
-      <span class="section-number">03</span>
-      <h2>Research</h2>
-    </div>
-    <div class="section-content">
-      <p class="section-lead">My research focuses on learning representations and world-action models that connect visual perception to physically grounded robot behavior.</p>
-      <div class="research-list">
-        <article class="research-item">
-          <span class="research-index">A</span>
-          <div>
-            <h3>Learning action priors from video</h3>
-            <p>Addressing data scarcity in robot learning by extracting reusable motion and interaction priors from large-scale human videos for cross-embodiment transfer.</p>
-          </div>
-        </article>
-        <article class="research-item">
-          <span class="research-index">B</span>
-          <div>
-            <h3>Geometry-aware multimodal alignment</h3>
-            <p>Developing representation spaces that capture heterogeneous semantics via mixed geometries, and enabling dynamic alignment across modalities at multiple levels.</p>
-          </div>
-        </article>
-        <article class="research-item">
-          <span class="research-index">C</span>
-          <div>
-            <h3>World-action models for embodied intelligence</h3>
-            <p>Exploring models that jointly capture scene structure, physical dynamics, and action consequences to support generalizable planning and control.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects" class="content-card section-grid projects-section">
-    <div class="section-label">
-      <span class="section-number">04</span>
-      <h2>Selected work</h2>
+      <h2>Research Projects</h2>
     </div>
     <div class="section-content item-list">
       <article class="project-card">
         <div class="project-topline">
-          <span>Video foundation models · Pose estimation</span>
+          <span>Robot learning · Cross-embodiment manipulation</span>
           <span>2026</span>
         </div>
-        <h3>ChildPose: Foundation for Children Pose Modeling</h3>
-        <p class="project-meta">Manuscript under review</p>
-        <p class="project-description">ChildPose adapts pretrained pose backbones to child-centric video through memory-augmented temporal attention and age-aware co-training. The project also introduces a human-in-the-loop data construction pipeline that uses model failures to guide review and correction, producing consistent gains across multiple backbone families under subject-held-out evaluation.</p>
-        <span class="project-status">Manuscript under review</span>
+        <h3>Interaction-Centric Representations Across Embodiments for Generalizable Manipulation</h3>
+        <p class="project-meta">Project lead</p>
+        <p class="project-description">This project learns a shared interaction representation from synthetic robot trajectories, human hand motion, and human-anchored robot trajectories. It supports zero-shot generalization to new objects and few-shot adaptation to new embodiments and tasks with frozen encoders.</p>
       </article>
       <article class="project-card">
         <div class="project-topline">
-          <span>Multimodal representation learning</span>
+          <span>Pose estimation · Child-centric video pose modeling</span>
+          <span>2026</span>
+        </div>
+        <h3>ChildPose: Foundation for Children Pose Modeling</h3>
+        <p class="project-meta">First author · Poster, NeurIPS 2026</p>
+        <p class="project-description">ChildPose shows that pediatric pose estimation needs child-specific temporal and developmental modeling beyond fine-tuning adult-centric estimators. It combines memory-augmented temporal attention with age-aware co-training to produce stable video predictions, outperforming off-the-shelf and child-data fine-tuned baselines on unseen subjects.</p>
+      </article>
+      <article class="project-card">
+        <div class="project-topline">
+          <span>Robot learning · Learning from human video</span>
+          <span>2026</span>
+        </div>
+        <h3>V2AP: Learning Affordance Posteriors for Robotic Grasping from Human Video Priors</h3>
+        <p class="project-meta">RoboData Workshop @ RSS 2026</p>
+        <p class="project-description">V2AP converts object-centric priors from human videos into robot-usable grasp supervision. It verifies candidate grasps in simulation, then aggregates successful rollouts into affordance posteriors that improve grasp success over raw human priors.</p>
+      </article>
+      <article class="project-card">
+        <div class="project-topline">
+          <span>Multimodal representation learning · Product-space contrastive alignment</span>
           <span>2026</span>
         </div>
         <h3>ProCLIP: Product Space Multimodal Contrastive Alignment</h3>
         <p class="project-meta"><strong>Jiakai Chen</strong> and <a href="https://suihangke.github.io/" target="_blank" rel="noopener noreferrer">Hangke Sui</a> · GRaM Workshop @ ICLR 2026</p>
-        <p class="project-description">This work introduces a mixed-curvature product space combining hyperbolic, spherical, and Euclidean manifolds to capture hierarchical and compositional multimodal structure. Its geometry-aware CLIP objective and lightweight manifold-specific projection heads improve Recall@1 by 2–7% over single-manifold baselines on Flickr30k and MSCOCO image–text retrieval.</p>
+        <p class="project-description">ProCLIP combines complementary representation spaces to capture diverse multimodal semantics. With pretrained backbones fixed, it improves image–text retrieval over single-geometry baselines.</p>
         <a class="project-link" href="https://openreview.net/pdf?id=Sp3BrGpo5w" target="_blank">Read the paper <span aria-hidden="true">↗</span></a>
       </article>
     </div>
@@ -149,7 +109,6 @@ title: "Jiakai Chen"
 
   <footer class="site-footer">
     <p>Jiakai Chen <span>© 2026</span></p>
-    <p>Researching intelligence that can move through the world.</p>
   </footer>
 </div>
 </div>

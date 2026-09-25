@@ -7,6 +7,7 @@ resources:
   - googlee24fe4eb9bc657e0.html
   - theme-toggle.js
   - theme-toggle.html
+  - hero-layout.js
 
 website:
   title: "Jiakai Chen"
@@ -17,6 +18,7 @@ format:
     css: styles.css
     include-after-body:
       - theme-toggle.html
+      - hero-layout.html
       - analytics.html
     toc: false
     smooth-scroll: true
