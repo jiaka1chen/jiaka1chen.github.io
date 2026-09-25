@@ -10,6 +10,9 @@ title: "Jiakai Chen"
       <span>Jiakai Chen</span>
     </a>
     <div class="rail-topbar-actions">
+      <button id="theme-toggle-mobile" class="rail-theme-toggle rail-mobile-theme-toggle" type="button" aria-label="Theme: Auto" title="Theme: Auto">
+        <i class="bi bi-circle-half"></i>
+      </button>
       <button id="menu-toggle" class="rail-menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" title="Toggle navigation">
         <i class="bi bi-list"></i>
       </button>

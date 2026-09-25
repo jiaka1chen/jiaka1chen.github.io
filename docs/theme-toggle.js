@@ -24,20 +24,19 @@
   applyTheme(earlyMode === LIGHT || earlyMode === DARK ? earlyMode : systemTheme());
 
   function setToggleVisual(mode) {
-    const btn = document.getElementById("theme-toggle");
-    if (!btn) return;
-
-    const icon = btn.querySelector("i");
-    if (!icon) return;
-
-    icon.classList.remove("bi-circle-half", "bi-sun", "bi-moon-stars");
-    if (mode === AUTO) icon.classList.add("bi-circle-half");
-    else if (mode === LIGHT) icon.classList.add("bi-sun");
-    else icon.classList.add("bi-moon-stars");
-
     const label = mode === AUTO ? "Theme: Auto" : mode === LIGHT ? "Theme: Light" : "Theme: Dark";
-    btn.setAttribute("aria-label", label);
-    btn.setAttribute("title", label);
+    document.querySelectorAll(".rail-theme-toggle").forEach((btn) => {
+      const icon = btn.querySelector("i");
+      if (!icon) return;
+
+      icon.classList.remove("bi-circle-half", "bi-sun", "bi-moon-stars");
+      if (mode === AUTO) icon.classList.add("bi-circle-half");
+      else if (mode === LIGHT) icon.classList.add("bi-sun");
+      else icon.classList.add("bi-moon-stars");
+
+      btn.setAttribute("aria-label", label);
+      btn.setAttribute("title", label);
+    });
   }
 
   function fallbackNightByClock() {
@@ -75,8 +74,9 @@
     setToggleVisual(mode);
     applyMode(mode);
 
-    const btn = document.getElementById("theme-toggle");
-    if (btn) btn.addEventListener("click", toggleMode);
+    document.querySelectorAll(".rail-theme-toggle").forEach((btn) => {
+      btn.addEventListener("click", toggleMode);
+    });
 
     const menuToggle = document.getElementById("menu-toggle");
     const nav = document.querySelector(".rail-nav");

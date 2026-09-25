@@ -582,6 +582,19 @@ html[data-theme="dark"] .aside-vision {
     display: flex;
   }
 
+  .rail-topbar-actions {
+    align-items: center;
+    gap: 0.65rem;
+  }
+
+  .rail-mobile-theme-toggle {
+    display: inline-grid;
+  }
+
+  .rail-nav-theme-toggle {
+    display: none;
+  }
+
   .rail-nav {
     position: absolute;
     top: 60px;
@@ -612,10 +625,6 @@ html[data-theme="dark"] .aside-vision {
 
   .rail-nav a::after {
     display: none;
-  }
-
-  .rail-theme-toggle {
-    margin-top: 0.8rem;
   }
 
   .hero {
