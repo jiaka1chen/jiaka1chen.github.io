@@ -30,11 +30,11 @@ title: "Jiakai Chen"
 
 <div class="main-column">
   <section class="hero" aria-labelledby="hero-title">
-    <div class="hero-grid" style="gap: 0;">
+    <div class="hero-grid">
       <div class="hero-copy">
         <h1 id="hero-title">Building representations for generalizable and scalable robot learning.</h1>
       </div>
-      <aside class="hero-aside" style="margin-top: clamp(3rem, 4.5vw, 3.75rem);">
+      <aside class="hero-aside">
         <img src="assets/img/portrait.jpg" class="profile-avatar" width="4371" height="5369" alt="Portrait of Jiakai Chen">
         <div class="vision-copy">
           <span class="aside-label">Research interest</span>
