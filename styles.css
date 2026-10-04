@@ -251,7 +251,7 @@ html[data-theme="dark"] .aside-label, html[data-theme="dark"] .aside-vision { co
 .project-meta a { color: inherit; text-underline-offset: 0.2em; }
 .project-meta a:hover { color: var(--text); }
 .project-meta strong { font-weight: 600; }
-.project-description { margin: 0.75rem 0 0; font-size: 1rem; line-height: 1.7; }
+.project-description { margin: 0.75rem 0 0; font-size: 0.9rem; line-height: 1.7; }
 .project-link {
   display: inline-block;
   margin-top: 0.75rem;
