@@ -38,7 +38,7 @@ title: "Jiakai Chen"
         <img src="assets/img/portrait.jpg" class="profile-avatar" width="4371" height="5369" alt="Portrait of Jiakai Chen">
         <div class="vision-copy">
           <span class="aside-label">Research interest</span>
-          <p class="aside-vision">I study how robots can extract <strong>reusable and transferable knowledge</strong> from human video and physical interaction. My goal is to build multimodal representations that let robots <strong>learn from internet-scale data</strong> and adapt across embodiments, objects, and tasks.</p>
+          <p class="aside-vision">I study how robots can extract <strong>reusable and transferable knowledge</strong> from human video and physical interaction. My goal is to build multimodal representations that let robots <strong>learn from internet-scale data</strong> and adapt across embodiments, objects, and tasks. To scale this learning, I see enabling agents to conduct <strong>real-robot experiments within explicit safety boundaries</strong> as a key missing capability for <strong>agent-driven learning loops</strong> that collect data, train models, execute rollouts, and evaluate results to guide further data collection and training.</p>
         </div>
       </aside>
     </div>
