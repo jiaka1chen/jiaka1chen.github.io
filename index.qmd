@@ -64,9 +64,27 @@ title: "Jiakai Chen"
     </div>
   </section>
 
+  <section id="news" class="content-card section-grid news-section" aria-labelledby="news-title">
+    <div class="section-label">
+      <h2 id="news-title">News</h2>
+    </div>
+    <div class="section-content news-window" role="region" aria-labelledby="news-title" tabindex="0">
+      <ul class="news-list">
+        <li class="news-item">
+          <time datetime="2026-10">Oct 2026</time>
+          <p><strong>ChildPose: Foundation for Children Pose Modeling</strong> has been accepted as a poster at <a href="https://neurips.cc/Conferences/2026" target="_blank" rel="noopener noreferrer">NeurIPS 2026</a>! I will be in Sydney to present our work in December. If you will be there too, I would love to connect—please feel free to <a href="mailto:jiakaic3@illinois.edu">reach out</a>.</p>
+        </li>
+        <li class="news-item">
+          <time datetime="2026-09">Sep 2026</time>
+          <p>Our team, GeoVAST-HIC at UC Berkeley, won <strong>first place in Industrial Board Assembly</strong> at the <a href="https://rocochallenge.github.io/RoCo-IROS2026/" target="_blank" rel="noopener noreferrer">RoCo Challenge @ IROS 2026</a>. I contributed to the Sharpa robot system, from perception to execution. <a href="https://www.linkedin.com/posts/changliu-liu-32b33030_rocochallenge-iros2026-robotics-ugcPost-7511517628595625984-DLfz/" target="_blank" rel="noopener noreferrer">Award announcement ↗</a></p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
   <section id="research-projects" class="content-card section-grid projects-section">
     <div class="section-label">
-      <span class="section-number">02</span>
+      <span class="section-number">03</span>
       <h2>Research Projects</h2>
     </div>
     <div class="section-content item-list">
