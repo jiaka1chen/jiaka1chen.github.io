@@ -285,6 +285,14 @@ html[data-theme="dark"] .aside-label, html[data-theme="dark"] .aside-vision { co
   text-underline-offset: 0.2em;
 }
 
+.hero-contact a > span[aria-hidden="true"],
+.project-link > span[aria-hidden="true"] {
+  font-size: 0.8em;
+  line-height: 1;
+}
+
+.experience-links { display: flex; flex-wrap: wrap; gap: 0 1.25rem; }
+
 .site-footer {
   margin-top: 3.75rem;
   padding: 1.5rem 0 2rem;
