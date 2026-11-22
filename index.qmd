@@ -46,6 +46,7 @@ title: "Jiakai Chen"
       <a href="mailto:jiakaic3@illinois.edu">Email <span aria-hidden="true">↗</span></a>
       <a href="https://github.com/jiaka1chen" target="_blank">GitHub <span aria-hidden="true">↗</span></a>
       <a href="https://www.linkedin.com/in/jiaka1chen" target="_blank">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href="https://scholar.google.com/citations?user=ADQwpyMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
     </div>
   </section>
 
