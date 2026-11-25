@@ -21,7 +21,7 @@ title: "Jiakai Chen"
 
   <nav class="rail-nav" aria-label="Primary navigation">
     <a href="#about">About</a>
-    <a href="#research-projects">Research Projects</a>
+    <a href="#research-projects">Research</a>
     <button id="theme-toggle" class="rail-theme-toggle rail-nav-theme-toggle" type="button" aria-label="Theme: Auto" title="Theme: Auto">
       <i class="bi bi-circle-half"></i>
     </button>
@@ -56,7 +56,7 @@ title: "Jiakai Chen"
       <h2>About</h2>
     </div>
     <div class="section-content about-copy">
-      <p class="section-lead">I am a Master of Computer Science student at the University of Illinois Urbana-Champaign and am currently conducting robot learning research with the MSC Lab at UC Berkeley.</p>
+      <p class="section-lead">I am a Master of Computer Science student at the University of Illinois Urbana-Champaign and am currently conducting robot learning research with the <a href="https://msc.berkeley.edu" target="_blank" rel="noopener noreferrer">MSC Lab</a> at UC Berkeley.</p>
       <p class="section-lead about-opportunity"><span class="opportunity-statement">I am seeking Fall 2027 Ph.D. opportunities and industry opportunities in robotics.</span> I welcome conversations about research, collaborations, and other opportunities—please feel free to reach out.</p>
       <div class="text-columns">
         <p>Prior to UIUC, I was admitted to the PhD program in Finance at the University of Rochester, where I later earned a master’s degree. Deciding to master out and restart on a new path was one of the most difficult but also one of the most important decisions in my academic journey. My training at Rochester provided me with a strong foundation in research, quantitative reasoning, and principled problem formulation. Over time, I realized that my core interests lie in AI and robotics, with the goal of building intelligent systems that can perceive, reason, and act in the real world. This experience not only shaped my research perspective, but also gave me the clarity and conviction to pursue the problems that matter most to me.</p>
@@ -86,45 +86,120 @@ title: "Jiakai Chen"
   <section id="research-projects" class="content-card section-grid projects-section">
     <div class="section-label">
       <span class="section-number">03</span>
-      <h2>Research Projects</h2>
+      <h2>Research</h2>
+      <small class="contribution-note">* Equal contribution</small>
     </div>
     <div class="section-content item-list">
-      <article class="project-card">
-        <div class="project-topline">
-          <span>Robot learning · Cross-embodiment manipulation</span>
-          <span>2026</span>
+      <article class="project-card project-card--illustrated">
+        <header class="project-heading">
+          <div class="project-topline">
+            <span>Agentic Robotics · Real2Sim2Real</span>
+            <span>2026</span>
+          </div>
+          <h3>Real2Worlds2Real: Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation</h3>
+          <p class="project-meta project-authors">Jinzhong&nbsp;Gu<sup>*</sup>, <strong>Jiakai&nbsp;Chen</strong><sup>*</sup>, Xinyi&nbsp;Cao<sup>*</sup>, <a href="https://sxy7147.github.io/" target="_blank" rel="noopener noreferrer">Yan&nbsp;Shen</a><sup>*</sup>, <a href="https://suihangke.github.io/" target="_blank" rel="noopener noreferrer">Hangke&nbsp;Sui</a><sup>*</sup>, Shutian&nbsp;Zheng, Xiang&nbsp;Xiao, Haoran&nbsp;Lu, Fan&nbsp;Xu, Lu&nbsp;Shi, <a href="https://developer.nvidia.com/blog/author/daochens/" target="_blank" rel="noopener noreferrer">Daochen&nbsp;Shi</a>, <a href="https://research.nvidia.com/labs/eai/author/ruihua-zhang/" target="_blank" rel="noopener noreferrer">Ruihua&nbsp;Zhang</a>, <a href="https://zhanwei.site/" target="_blank" rel="noopener noreferrer">Wei&nbsp;Zhan</a>, <a href="https://msc.berkeley.edu/people/tomizuka.html" target="_blank" rel="noopener noreferrer">Masayoshi&nbsp;Tomizuka</a>, <a href="https://warshallrho.github.io/" target="_blank" rel="noopener noreferrer">Ruihai&nbsp;Wu</a></p>
+          <p class="project-meta">arXiv preprint</p>
+        </header>
+        <div class="project-body">
+          <div class="project-media project-media--real2worlds2real">
+            <img src="assets/img/projects/real2worlds2real.webp" width="800" height="500" loading="lazy" decoding="async" alt="The same tabletop manipulation setup in simulation on the left and on the physical robot on the right.">
+            <div class="project-cover-title" aria-hidden="true">
+              <span class="project-cover-wordmark">Real<span class="project-cover-number">2</span><span class="project-cover-worlds">Worlds</span><span class="project-cover-number">2</span>Real</span>
+              <span class="project-cover-subtitle">Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation</span>
+            </div>
+          </div>
+          <div class="project-copy">
+            <p class="project-description">Real2Worlds2Real is an end-to-end agentic pipeline that connects simulation world building with manipulation policy learning. From a few real observations, the agent reconstructs a digital twin and generates diverse digital cousins to help policies generalize beyond the original scene. The agent improves over time by using simulation feedback to refine worlds and policies and distilling validated procedures into reusable skills for future tasks.</p>
+            <div class="project-links">
+              <a class="project-link" href="https://real2worlds2real.github.io/" target="_blank" rel="noopener noreferrer">Project page <span aria-hidden="true">↗</span></a>
+              <a class="project-link" href="https://arxiv.org/abs/2611.31098" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
         </div>
-        <h3>Interaction-Centric Representations Across Embodiments for Generalizable Manipulation</h3>
-        <p class="project-meta">Project lead</p>
-        <p class="project-description">This project learns a shared interaction representation from synthetic robot trajectories, human hand motion, and human-anchored robot trajectories. It supports zero-shot generalization to new objects and few-shot adaptation to new embodiments and tasks with frozen encoders.</p>
       </article>
-      <article class="project-card">
-        <div class="project-topline">
-          <span>Pose estimation · Child-centric video pose modeling</span>
-          <span>2026</span>
+      <article class="project-card project-card--illustrated">
+        <header class="project-heading">
+          <div class="project-topline">
+            <span>Robot learning · Cross-embodiment manipulation</span>
+            <span>2026</span>
+          </div>
+          <h3>Interaction-Centric Representations Across Embodiments for Generalizable Manipulation</h3>
+          <p class="project-meta project-authors"><strong>Jiakai&nbsp;Chen</strong>, Fan&nbsp;Nai, <a href="https://suihangke.github.io/" target="_blank" rel="noopener noreferrer">Hangke&nbsp;Sui</a>, Mutian&nbsp;Shen, Haoran&nbsp;Lu, <a href="https://msc.berkeley.edu/people/tomizuka.html" target="_blank" rel="noopener noreferrer">Masayoshi&nbsp;Tomizuka</a>, <a href="https://zhanwei.site/" target="_blank" rel="noopener noreferrer">Wei&nbsp;Zhan</a>, <a href="https://warshallrho.github.io/" target="_blank" rel="noopener noreferrer">Ruihai&nbsp;Wu</a></p>
+          <p class="project-meta">Manuscript under review</p>
+        </header>
+        <div class="project-body">
+          <div class="project-media">
+            <img src="assets/img/projects/interaction.webp" width="960" height="412" loading="lazy" decoding="async" alt="Overview of shared hand-object interaction representations across different hands and objects.">
+          </div>
+          <div class="project-copy">
+            <p class="project-description">This project learns a shared interaction representation from synthetic robot trajectories, human hand motion, and human-anchored robot trajectories. It supports zero-shot generalization to new objects and few-shot adaptation to new embodiments and tasks with frozen encoders.</p>
+            <span class="project-paper-status">Paper coming soon</span>
+          </div>
         </div>
-        <h3>ChildPose: Foundation for Children Pose Modeling</h3>
-        <p class="project-meta">First author · Poster, NeurIPS 2026</p>
-        <p class="project-description">ChildPose shows that pediatric pose estimation needs child-specific temporal and developmental modeling beyond fine-tuning adult-centric estimators. It combines memory-augmented temporal attention with age-aware co-training to produce stable video predictions, outperforming off-the-shelf and child-data fine-tuned baselines on unseen subjects.</p>
       </article>
-      <article class="project-card">
-        <div class="project-topline">
-          <span>Robot learning · Learning from human video</span>
-          <span>2026</span>
+      <article class="project-card project-card--illustrated">
+        <header class="project-heading">
+          <div class="project-topline">
+            <span>Pose estimation · Child-centric video pose modeling</span>
+            <span>2026</span>
+          </div>
+          <h3>ChildPose: Foundation for Children Pose Modeling</h3>
+          <p class="project-meta project-authors"><strong>Jiakai&nbsp;Chen</strong>, <a href="https://shenyifans.github.io/" target="_blank" rel="noopener noreferrer">Yifan&nbsp;Shen</a>, <a href="https://resurgamm.github.io/" target="_blank" rel="noopener noreferrer">Boyi&nbsp;Li</a>, Chuanmiao&nbsp;Dong, <a href="https://www.irohxucao.com/" target="_blank" rel="noopener noreferrer">Xu&nbsp;Cao</a></p>
+          <p class="project-meta">Poster, NeurIPS 2026</p>
+        </header>
+        <div class="project-body">
+          <div class="project-media">
+            <img src="assets/img/projects/childpose.webp" width="910" height="319" loading="lazy" decoding="async" alt="ChildPose architecture with temporal memory, an age prediction head, and pose estimation.">
+          </div>
+          <div class="project-copy">
+            <p class="project-description">ChildPose shows that pediatric pose estimation needs child-specific temporal and developmental modeling beyond fine-tuning adult-centric estimators. It combines memory-augmented temporal attention with age-aware co-training to produce stable video predictions, outperforming off-the-shelf and child-data fine-tuned baselines on unseen subjects.</p>
+            <div class="project-links">
+              <a class="project-link" href="https://pediamed.ai/ChildPose/" target="_blank" rel="noopener noreferrer">Project page <span aria-hidden="true">↗</span></a>
+              <span class="project-paper-status">Paper coming soon</span>
+              <a class="project-link" href="https://github.com/PediaMedAI/ChildPose" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
         </div>
-        <h3>V2AP: Learning Affordance Posteriors for Robotic Grasping from Human Video Priors</h3>
-        <p class="project-meta">RoboData Workshop @ RSS 2026</p>
-        <p class="project-description">V2AP converts object-centric priors from human videos into robot-usable grasp supervision. It verifies candidate grasps in simulation, then aggregates successful rollouts into affordance posteriors that improve grasp success over raw human priors.</p>
       </article>
-      <article class="project-card">
-        <div class="project-topline">
-          <span>Multimodal representation learning · Product-space contrastive alignment</span>
-          <span>2026</span>
+      <article class="project-card project-card--illustrated">
+        <header class="project-heading">
+          <div class="project-topline">
+            <span>Robot learning · Learning from human video</span>
+            <span>2026</span>
+          </div>
+          <h3>V2AP: Learning Affordance Posteriors for Robotic Grasping from Human Video Priors</h3>
+          <p class="project-meta project-authors">Yanghong&nbsp;Liu, Fan&nbsp;Xu, Zehao&nbsp;Lin, <strong>Jiakai&nbsp;Chen</strong>, Haoran&nbsp;Lu, Zhengtao&nbsp;Yao, Yubiao&nbsp;Zhang, <a href="https://msc.berkeley.edu/people/tomizuka.html" target="_blank" rel="noopener noreferrer">Masayoshi&nbsp;Tomizuka</a>, <a href="https://zhanwei.site/" target="_blank" rel="noopener noreferrer">Wei&nbsp;Zhan</a>, <a href="https://warshallrho.github.io/" target="_blank" rel="noopener noreferrer">Ruihai&nbsp;Wu</a></p>
+          <p class="project-meta">Poster, RoboData Workshop @ RSS 2026</p>
+        </header>
+        <div class="project-body">
+          <div class="project-media">
+            <img src="assets/img/projects/v2ap.webp" width="856" height="492" loading="lazy" decoding="async" alt="V2AP framework: contact priors from human videos are verified in simulation to learn robot affordances.">
+          </div>
+          <div class="project-copy">
+            <p class="project-description">V2AP converts object-centric priors from human videos into robot-usable grasp supervision. It verifies candidate grasps in simulation, then aggregates successful rollouts into affordance posteriors that improve grasp success over raw human priors.</p>
+            <a class="project-link" href="https://openreview.net/pdf?id=BGvKwrz7A8" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
-        <h3>ProCLIP: Product Space Multimodal Contrastive Alignment</h3>
-        <p class="project-meta"><strong>Jiakai Chen</strong> and <a href="https://suihangke.github.io/" target="_blank" rel="noopener noreferrer">Hangke Sui</a> · GRaM Workshop @ ICLR 2026</p>
-        <p class="project-description">ProCLIP combines complementary representation spaces to capture diverse multimodal semantics. With pretrained backbones fixed, it improves image–text retrieval over single-geometry baselines.</p>
-        <a class="project-link" href="https://openreview.net/pdf?id=Sp3BrGpo5w" target="_blank">Read the paper <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="project-card project-card--illustrated">
+        <header class="project-heading">
+          <div class="project-topline">
+            <span>Multimodal representation learning · Contrastive learning</span>
+            <span>2026</span>
+          </div>
+          <h3>ProCLIP: Product Space Multimodal Contrastive Alignment</h3>
+          <p class="project-meta project-authors"><strong>Jiakai&nbsp;Chen</strong>, <a href="https://suihangke.github.io/" target="_blank" rel="noopener noreferrer">Hangke&nbsp;Sui</a></p>
+          <p class="project-meta">Poster, GRaM Workshop @ ICLR 2026</p>
+        </header>
+        <div class="project-body">
+          <div class="project-media">
+            <img src="assets/img/projects/proclip.webp" width="1056" height="408" loading="lazy" decoding="async" alt="ProCLIP Figure 1 showing examples of hierarchical relations in hyperbolic space, color hue on a sphere, and linear size variation in Euclidean space.">
+          </div>
+          <div class="project-copy">
+            <p class="project-description">ProCLIP combines complementary representation spaces to capture diverse multimodal semantics. With pretrained backbones fixed, it improves image–text retrieval over single-geometry baselines.</p>
+            <a class="project-link" href="https://openreview.net/pdf?id=Sp3BrGpo5w" target="_blank">Read the paper <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
       </article>
     </div>
   </section>
