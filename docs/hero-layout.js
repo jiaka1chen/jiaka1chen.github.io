@@ -1,6 +1,6 @@
 (() => {
   const aside = document.querySelector(".hero-aside");
-  const copy = aside?.querySelector(".vision-copy");
+  const copy = aside?.querySelector(".bio-copy");
   const photo = aside?.querySelector(".profile-avatar");
   if (!aside || !copy || !photo) return;
 

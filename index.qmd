@@ -21,7 +21,9 @@ title: "Jiakai Chen"
 
   <nav class="rail-nav" aria-label="Primary navigation">
     <a href="#about">About</a>
+    <a href="#news">News</a>
     <a href="#research-projects">Research</a>
+    <a href="#other-experience">Other Experience</a>
     <button id="theme-toggle" class="rail-theme-toggle rail-nav-theme-toggle" type="button" aria-label="Theme: Auto" title="Theme: Auto">
       <i class="bi bi-circle-half"></i>
     </button>
@@ -29,18 +31,16 @@ title: "Jiakai Chen"
 </header>
 
 <div class="main-column">
-  <section class="hero" aria-labelledby="hero-title">
-    <div class="hero-grid">
-      <div class="hero-copy">
-        <h1 id="hero-title">Building representations for generalizable and scalable robot learning.</h1>
+  <section id="about" class="content-card section-grid about-section" aria-labelledby="about-title">
+    <div class="section-label">
+      <h2 id="about-title">About</h2>
+    </div>
+    <div class="hero-aside">
+      <img src="assets/img/portrait.jpg" class="profile-avatar" width="4371" height="5369" alt="Portrait of Jiakai Chen">
+      <div class="bio-copy">
+        <p>I am a Master of Computer Science student at the <strong>University of Illinois Urbana-Champaign (UIUC)</strong> and a robot learning researcher with the <a href="https://msc.berkeley.edu/" target="_blank" rel="noopener noreferrer">MSC Lab</a> at <strong>UC Berkeley</strong>, working with Prof. <a href="https://msc.berkeley.edu/people/tomizuka.html" target="_blank" rel="noopener noreferrer">Masayoshi Tomizuka</a>, Dr. <a href="https://zhanwei.site/" target="_blank" rel="noopener noreferrer">Wei Zhan</a>, and Dr. <a href="https://warshallrho.github.io/" target="_blank" rel="noopener noreferrer">Ruihai Wu</a>.</p>
+        <p><u>I am seeking Fall 2027 Ph.D. opportunities</u> (and spring/summer industry research roles) in robotics and AI. I welcome conversations about research and collaborations—please feel free to reach out.</p>
       </div>
-      <aside class="hero-aside">
-        <img src="assets/img/portrait.jpg" class="profile-avatar" width="4371" height="5369" alt="Portrait of Jiakai Chen">
-        <div class="vision-copy">
-          <span class="aside-label">Research interest</span>
-          <p class="aside-vision">I study how robots can extract <strong>reusable and transferable knowledge</strong> from human video and physical interaction. My goal is to build multimodal representations that let robots <strong>learn from internet-scale data</strong> and adapt across embodiments, objects, and tasks. To scale this learning, I see enabling agents to conduct <strong>real-robot experiments within explicit safety boundaries</strong> as a key missing capability for <strong>agent-driven learning loops</strong> that collect data, train models, execute rollouts, and evaluate results to guide further data collection and training.</p>
-        </div>
-      </aside>
     </div>
     <div class="hero-contact" aria-label="Contact links">
       <a href="mailto:jiakaic3@illinois.edu">Email <span aria-hidden="true">↗</span></a>
@@ -48,20 +48,18 @@ title: "Jiakai Chen"
       <a href="https://www.linkedin.com/in/jiaka1chen" target="_blank">LinkedIn <span aria-hidden="true">↗</span></a>
       <a href="https://scholar.google.com/citations?user=ADQwpyMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
     </div>
-  </section>
-
-  <section id="about" class="content-card section-grid">
-    <div class="section-label">
-      <span class="section-number">01</span>
-      <h2>About</h2>
-    </div>
-    <div class="section-content about-copy">
-      <p class="section-lead">I am a Master of Computer Science student at the University of Illinois Urbana-Champaign and am currently conducting robot learning research with the <a href="https://msc.berkeley.edu" target="_blank" rel="noopener noreferrer">MSC Lab</a> at UC Berkeley.</p>
-      <p class="section-lead about-opportunity"><span class="opportunity-statement">I am seeking Fall 2027 Ph.D. opportunities and industry opportunities in robotics.</span> I welcome conversations about research, collaborations, and other opportunities—please feel free to reach out.</p>
-      <div class="text-columns">
-        <p>Prior to UIUC, I was admitted to the PhD program in Finance at the University of Rochester, where I later earned a master’s degree. Deciding to master out and restart on a new path was one of the most difficult but also one of the most important decisions in my academic journey. My training at Rochester provided me with a strong foundation in research, quantitative reasoning, and principled problem formulation. Over time, I realized that my core interests lie in AI and robotics, with the goal of building intelligent systems that can perceive, reason, and act in the real world. This experience not only shaped my research perspective, but also gave me the clarity and conviction to pursue the problems that matter most to me.</p>
-        <p>I received my bachelor’s degree in Financial Technology, with a second major in Computer Science, from the University of Hong Kong, where I built a strong foundation in quantitative analysis and computing, and developed an early interest in machine learning through coursework.</p>
-      </div>
+    <section class="research-vision" aria-labelledby="vision-title">
+      <h3 id="vision-title">Research Interest</h3>
+      <p>Foundation models and general-purpose agents bring internet-scale priors and deliberate reasoning, yet physical robots operate under strict real-time latency and safety constraints. My research aims to understand <strong class="research-highlight">what representations transfer across humans and embodiments</strong> and <strong class="research-highlight">where general-purpose agents belong in the robotics stack</strong>, connecting three stages into <strong class="research-highlight">one closed loop</strong>:</p>
+      <ul>
+        <li><strong>Human &amp; Cross-Embodiment Priors</strong> — While LLMs have unlocked internet-scale text, robotics remains bottlenecked by robot-data scarcity. This motivates structured, transferable representations that turn abundant human data and diverse embodiments into reusable physical and behavioral priors for robotic manipulation.</li>
+        <li><strong>From Slow Agents to Fast Representations &amp; Models</strong> — General-purpose agents can already orchestrate simulators, plan over long horizons, and even directly control robots, yet remain far too slow for real-time physical interaction. A central question is how to transform these deliberate capabilities into faster representations, models, and execution paradigms.</li>
+        <li><strong>Agent-Driven Real-World Robotics Loops</strong> — Closing the loop in the physical world by empowering agents to drive end-to-end robotics research and engineering, autonomously conducting exploration, hardware rollouts, and systematic evaluation within explicit safety boundaries to continually feed grounded experience back into representations and models.</li>
+      </ul>
+    </section>
+    <div class="about-background">
+      <p>Prior to starting at UIUC in January 2026, I was a Ph.D. student in Finance at the <strong>University of Rochester</strong>, where I completed my doctoral coursework in good standing before choosing to exit with an M.S. degree at the end of 2025 to pivot full-time into AI and robotics. While my training at Rochester gave me a strong foundation in quantitative reasoning and principled problem formulation, I realized that rather than analyzing markets from the outside, I wanted to build intelligent systems that perceive, reason, and act in the physical world. This experience not only shaped my research perspective, but also gave me the clarity and conviction to pursue the problems that matter most to me.</p>
+      <p>Earlier, I received my bachelor’s degree in Financial Technology with a second major in Computer Science from the <strong>University of Hong Kong</strong>, where I built a foundation in quantitative analysis, computing, and machine learning.</p>
     </div>
   </section>
 
@@ -71,6 +69,10 @@ title: "Jiakai Chen"
     </div>
     <div class="section-content news-window" role="region" aria-labelledby="news-title" tabindex="0">
       <ul class="news-list">
+        <li class="news-item">
+          <time datetime="2026-11"><strong class="research-highlight">Nov 2026</strong></time>
+          <p>Released <strong>Real2Worlds2Real: Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation</strong> (<a href="https://real2worlds2real.github.io/" target="_blank" rel="noopener noreferrer">Project page</a>, <a href="https://arxiv.org/abs/2611.31098" target="_blank" rel="noopener noreferrer">Paper</a>).</p>
+        </li>
         <li class="news-item">
           <time datetime="2026-10">Oct 2026</time>
           <p><strong>ChildPose: Foundation for Children Pose Modeling</strong> has been accepted for poster presentation at NeurIPS 2026. I will present the work in Sydney this December. Please feel free to get in touch.</p>
@@ -97,7 +99,7 @@ title: "Jiakai Chen"
             <span>2026</span>
           </div>
           <h3>Real2Worlds2Real: Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation</h3>
-          <p class="project-meta project-authors">Jinzhong&nbsp;Gu<sup>*</sup>, <strong>Jiakai&nbsp;Chen</strong><sup>*</sup>, Xinyi&nbsp;Cao<sup>*</sup>, <a href="https://sxy7147.github.io/" target="_blank" rel="noopener noreferrer">Yan&nbsp;Shen</a><sup>*</sup>, <a href="https://suihangke.github.io/" target="_blank" rel="noopener noreferrer">Hangke&nbsp;Sui</a><sup>*</sup>, Shutian&nbsp;Zheng, Xiang&nbsp;Xiao, Haoran&nbsp;Lu, Fan&nbsp;Xu, Lu&nbsp;Shi, <a href="https://developer.nvidia.com/blog/author/daochens/" target="_blank" rel="noopener noreferrer">Daochen&nbsp;Shi</a>, <a href="https://research.nvidia.com/labs/eai/author/ruihua-zhang/" target="_blank" rel="noopener noreferrer">Ruihua&nbsp;Zhang</a>, <a href="https://zhanwei.site/" target="_blank" rel="noopener noreferrer">Wei&nbsp;Zhan</a>, <a href="https://msc.berkeley.edu/people/tomizuka.html" target="_blank" rel="noopener noreferrer">Masayoshi&nbsp;Tomizuka</a>, <a href="https://warshallrho.github.io/" target="_blank" rel="noopener noreferrer">Ruihai&nbsp;Wu</a></p>
+          <p class="project-meta project-authors">Jinzhong&nbsp;Gu<sup>*</sup>, <strong>Jiakai&nbsp;Chen</strong><sup>*</sup>, Xinyi&nbsp;Cao<sup>*</sup>, <a href="https://sxy7147.github.io/" target="_blank" rel="noopener noreferrer">Yan&nbsp;Shen</a><sup>*</sup>, <a href="https://suihangke.github.io/" target="_blank" rel="noopener noreferrer">Hangke&nbsp;Sui</a><sup>*</sup>, Shutian&nbsp;Zheng, Xiang&nbsp;Xiao, <a href="https://luhr2003.github.io" target="_blank" rel="noopener noreferrer">Haoran&nbsp;Lu</a>, Fan&nbsp;Xu, Lu&nbsp;Shi, Daochen&nbsp;Shi, Ruihua&nbsp;Zhang, <a href="https://zhanwei.site/" target="_blank" rel="noopener noreferrer">Wei&nbsp;Zhan</a>, <a href="https://msc.berkeley.edu/people/tomizuka.html" target="_blank" rel="noopener noreferrer">Masayoshi&nbsp;Tomizuka</a>, <a href="https://warshallrho.github.io/" target="_blank" rel="noopener noreferrer">Ruihai&nbsp;Wu</a></p>
           <p class="project-meta">arXiv preprint</p>
         </header>
         <div class="project-body">
@@ -124,7 +126,7 @@ title: "Jiakai Chen"
             <span>2026</span>
           </div>
           <h3>Interaction-Centric Representations Across Embodiments for Generalizable Manipulation</h3>
-          <p class="project-meta project-authors"><strong>Jiakai&nbsp;Chen</strong>, Fan&nbsp;Nai, <a href="https://suihangke.github.io/" target="_blank" rel="noopener noreferrer">Hangke&nbsp;Sui</a>, Mutian&nbsp;Shen, Haoran&nbsp;Lu, <a href="https://msc.berkeley.edu/people/tomizuka.html" target="_blank" rel="noopener noreferrer">Masayoshi&nbsp;Tomizuka</a>, <a href="https://zhanwei.site/" target="_blank" rel="noopener noreferrer">Wei&nbsp;Zhan</a>, <a href="https://warshallrho.github.io/" target="_blank" rel="noopener noreferrer">Ruihai&nbsp;Wu</a></p>
+          <p class="project-meta project-authors"><strong>Jiakai&nbsp;Chen</strong>, Fan&nbsp;Nai, <a href="https://suihangke.github.io/" target="_blank" rel="noopener noreferrer">Hangke&nbsp;Sui</a>, <a href="https://shen626.github.io" target="_blank" rel="noopener noreferrer">Mutian&nbsp;Shen</a>, <a href="https://luhr2003.github.io" target="_blank" rel="noopener noreferrer">Haoran&nbsp;Lu</a>, <a href="https://msc.berkeley.edu/people/tomizuka.html" target="_blank" rel="noopener noreferrer">Masayoshi&nbsp;Tomizuka</a>, <a href="https://zhanwei.site/" target="_blank" rel="noopener noreferrer">Wei&nbsp;Zhan</a>, <a href="https://warshallrho.github.io/" target="_blank" rel="noopener noreferrer">Ruihai&nbsp;Wu</a></p>
           <p class="project-meta">Manuscript under review</p>
         </header>
         <div class="project-body">
@@ -168,7 +170,7 @@ title: "Jiakai Chen"
             <span>2026</span>
           </div>
           <h3>V2AP: Learning Affordance Posteriors for Robotic Grasping from Human Video Priors</h3>
-          <p class="project-meta project-authors">Yanghong&nbsp;Liu, Fan&nbsp;Xu, Zehao&nbsp;Lin, <strong>Jiakai&nbsp;Chen</strong>, Haoran&nbsp;Lu, Zhengtao&nbsp;Yao, Yubiao&nbsp;Zhang, <a href="https://msc.berkeley.edu/people/tomizuka.html" target="_blank" rel="noopener noreferrer">Masayoshi&nbsp;Tomizuka</a>, <a href="https://zhanwei.site/" target="_blank" rel="noopener noreferrer">Wei&nbsp;Zhan</a>, <a href="https://warshallrho.github.io/" target="_blank" rel="noopener noreferrer">Ruihai&nbsp;Wu</a></p>
+          <p class="project-meta project-authors">Yanghong&nbsp;Liu, Fan&nbsp;Xu, Zehao&nbsp;Lin, <strong>Jiakai&nbsp;Chen</strong>, <a href="https://luhr2003.github.io" target="_blank" rel="noopener noreferrer">Haoran&nbsp;Lu</a>, Zhengtao&nbsp;Yao, Yubiao&nbsp;Zhang, <a href="https://msc.berkeley.edu/people/tomizuka.html" target="_blank" rel="noopener noreferrer">Masayoshi&nbsp;Tomizuka</a>, <a href="https://zhanwei.site/" target="_blank" rel="noopener noreferrer">Wei&nbsp;Zhan</a>, <a href="https://warshallrho.github.io/" target="_blank" rel="noopener noreferrer">Ruihai&nbsp;Wu</a></p>
           <p class="project-meta">Poster, RoboData Workshop @ RSS 2026</p>
         </header>
         <div class="project-body">
@@ -226,7 +228,9 @@ title: "Jiakai Chen"
   </section>
 
   <footer class="site-footer">
-    <p>Jiakai Chen <span>© 2026</span></p>
+    <p class="footer-credit"><span>© 2026</span> Jiakai Chen</p>
+    <p class="footer-updated">Last updated <time datetime="2026-11">Nov 2026</time></p>
+    <a class="footer-top" href="#top">Back to top</a>
   </footer>
 </div>
 </div>
