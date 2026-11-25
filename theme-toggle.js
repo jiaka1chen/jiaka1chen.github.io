@@ -11,7 +11,10 @@
   }
 
   function applyTheme(theme) {
-    document.documentElement.dataset.theme = theme;
+    const root = document.documentElement;
+    root.dataset.theme = theme;
+    const tint = document.querySelector('meta[name="theme-color"]');
+    if (tint) tint.content = getComputedStyle(root).getPropertyValue("--canvas").trim();
   }
 
   function systemTheme() {

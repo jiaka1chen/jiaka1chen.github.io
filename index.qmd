@@ -1,5 +1,9 @@
 ---
 title: "Jiakai Chen"
+format:
+  html:
+    template-partials:
+      - metadata.html
 ---
 
 ```{=html}
@@ -69,7 +73,7 @@ title: "Jiakai Chen"
     <div class="section-label">
       <h2 id="news-title">News</h2>
     </div>
-    <div class="section-content news-window" role="region" aria-labelledby="news-title" tabindex="0">
+    <div class="section-content">
       <ul class="news-list">
         <li class="news-item">
           <time datetime="2026-11"><strong class="research-highlight">Nov 2026</strong></time>
