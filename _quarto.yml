@@ -8,6 +8,7 @@ resources:
   - theme-toggle.js
   - theme-toggle.html
   - hero-layout.js
+  - image-viewer.js
 
 website:
   title: "Jiakai Chen"

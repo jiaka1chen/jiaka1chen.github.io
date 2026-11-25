@@ -36,7 +36,9 @@ title: "Jiakai Chen"
       <h2 id="about-title">About</h2>
     </div>
     <div class="hero-aside">
-      <img src="assets/img/portrait.jpg" class="profile-avatar" width="4371" height="5369" alt="Portrait of Jiakai Chen">
+      <a class="image-trigger portrait-trigger" href="assets/img/portrait.jpg" aria-label="Enlarge portrait of Jiakai Chen">
+        <img src="assets/img/portrait.jpg" class="profile-avatar" width="4371" height="5369" alt="Portrait of Jiakai Chen">
+      </a>
       <div class="bio-copy">
         <p>I am a Master of Computer Science student at the <strong>University of Illinois Urbana-Champaign (UIUC)</strong> and a robot learning researcher with the <a href="https://msc.berkeley.edu/" target="_blank" rel="noopener noreferrer">MSC Lab</a> at <strong>UC Berkeley</strong>, working with Prof. <a href="https://msc.berkeley.edu/people/tomizuka.html" target="_blank" rel="noopener noreferrer">Masayoshi Tomizuka</a>, Dr. <a href="https://zhanwei.site/" target="_blank" rel="noopener noreferrer">Wei Zhan</a>, and Dr. <a href="https://warshallrho.github.io/" target="_blank" rel="noopener noreferrer">Ruihai Wu</a>.</p>
         <p><u>I am seeking Fall 2027 Ph.D. opportunities</u> and spring or summer internships in robotics and AI. I welcome conversations about research and collaborations—please feel free to reach out.</p>
@@ -103,13 +105,13 @@ title: "Jiakai Chen"
           <p class="project-meta">arXiv preprint</p>
         </header>
         <div class="project-body">
-          <div class="project-media project-media--real2worlds2real">
-            <img src="assets/img/projects/real2worlds2real.webp" width="800" height="500" loading="lazy" decoding="async" alt="The same tabletop manipulation setup in simulation on the left and on the physical robot on the right.">
-            <div class="project-cover-title" aria-hidden="true">
+          <a class="project-media project-media--real2worlds2real image-trigger" href="assets/img/projects/real2worlds2real.mp4" aria-label="Enlarge video: Synchronized manipulation demo in simulation (left) and on the real robot (right).">
+            <video src="assets/img/projects/real2worlds2real.mp4" poster="assets/img/projects/real2worlds2real.webp" width="640" height="400" autoplay muted loop playsinline preload="metadata" aria-label="Synchronized manipulation demo in simulation (left) and on the real robot (right)."></video>
+            <span class="project-cover-title" aria-hidden="true">
               <span class="project-cover-wordmark">Real<span class="project-cover-number">2</span><span class="project-cover-worlds">Worlds</span><span class="project-cover-number">2</span>Real</span>
               <span class="project-cover-subtitle">Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation</span>
-            </div>
-          </div>
+            </span>
+          </a>
           <div class="project-copy">
             <p class="project-description">Real2Worlds2Real is an end-to-end agentic pipeline that connects simulation world building with manipulation policy learning. From a few real observations, the agent reconstructs a digital twin and generates diverse digital cousins to help policies generalize beyond the original scene. The agent improves over time by using simulation feedback to refine worlds and policies and distilling validated procedures into reusable skills for future tasks.</p>
             <div class="project-links">
@@ -130,9 +132,9 @@ title: "Jiakai Chen"
           <p class="project-meta">Manuscript under review</p>
         </header>
         <div class="project-body">
-          <div class="project-media">
+          <a class="project-media image-trigger" href="assets/img/projects/interaction.webp" aria-label="Enlarge image: Overview of shared hand-object interaction representations across different hands and objects.">
             <img src="assets/img/projects/interaction.webp" width="960" height="412" loading="lazy" decoding="async" alt="Overview of shared hand-object interaction representations across different hands and objects.">
-          </div>
+          </a>
           <div class="project-copy">
             <p class="project-description">This project learns a shared interaction representation from synthetic robot trajectories, human hand motion, and human-anchored robot trajectories. It supports zero-shot generalization to new objects and few-shot adaptation to new embodiments and tasks with frozen encoders.</p>
             <span class="project-paper-status">Paper coming soon</span>
@@ -150,9 +152,9 @@ title: "Jiakai Chen"
           <p class="project-meta">Poster, NeurIPS 2026</p>
         </header>
         <div class="project-body">
-          <div class="project-media">
+          <a class="project-media image-trigger" href="assets/img/projects/childpose.webp" aria-label="Enlarge image: ChildPose architecture with temporal memory, an age prediction head, and pose estimation.">
             <img src="assets/img/projects/childpose.webp" width="910" height="319" loading="lazy" decoding="async" alt="ChildPose architecture with temporal memory, an age prediction head, and pose estimation.">
-          </div>
+          </a>
           <div class="project-copy">
             <p class="project-description">ChildPose shows that pediatric pose estimation needs child-specific temporal and developmental modeling beyond fine-tuning adult-centric estimators. It combines memory-augmented temporal attention with age-aware co-training to produce stable video predictions, outperforming off-the-shelf and child-data fine-tuned baselines on unseen subjects.</p>
             <div class="project-links">
@@ -174,9 +176,9 @@ title: "Jiakai Chen"
           <p class="project-meta">Poster, RoboData Workshop @ RSS 2026</p>
         </header>
         <div class="project-body">
-          <div class="project-media">
+          <a class="project-media image-trigger" href="assets/img/projects/v2ap.webp" aria-label="Enlarge image: V2AP framework: contact priors from human videos are verified in simulation to learn robot affordances.">
             <img src="assets/img/projects/v2ap.webp" width="856" height="492" loading="lazy" decoding="async" alt="V2AP framework: contact priors from human videos are verified in simulation to learn robot affordances.">
-          </div>
+          </a>
           <div class="project-copy">
             <p class="project-description">V2AP converts object-centric priors from human videos into robot-usable grasp supervision. It verifies candidate grasps in simulation, then aggregates successful rollouts into affordance posteriors that improve grasp success over raw human priors.</p>
             <a class="project-link" href="https://openreview.net/pdf?id=BGvKwrz7A8" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
@@ -194,9 +196,9 @@ title: "Jiakai Chen"
           <p class="project-meta">Poster, GRaM Workshop @ ICLR 2026</p>
         </header>
         <div class="project-body">
-          <div class="project-media">
+          <a class="project-media image-trigger" href="assets/img/projects/proclip.webp" aria-label="Enlarge image: ProCLIP Figure 1 showing examples of hierarchical relations in hyperbolic space, color hue on a sphere, and linear size variation in Euclidean space.">
             <img src="assets/img/projects/proclip.webp" width="1056" height="408" loading="lazy" decoding="async" alt="ProCLIP Figure 1 showing examples of hierarchical relations in hyperbolic space, color hue on a sphere, and linear size variation in Euclidean space.">
-          </div>
+          </a>
           <div class="project-copy">
             <p class="project-description">ProCLIP combines complementary representation spaces to capture diverse multimodal semantics. With pretrained backbones fixed, it improves image–text retrieval over single-geometry baselines.</p>
             <a class="project-link" href="https://openreview.net/pdf?id=Sp3BrGpo5w" target="_blank">Read the paper <span aria-hidden="true">↗</span></a>
@@ -226,6 +228,11 @@ title: "Jiakai Chen"
       </article>
     </div>
   </section>
+
+  <dialog class="image-viewer" aria-label="Media preview">
+    <div class="viewer-frame"></div>
+  </dialog>
+  <script src="image-viewer.js?v=20261125-video" defer></script>
 
   <footer class="site-footer">
     <p class="footer-credit"><span>© 2026</span> Jiakai Chen</p>
