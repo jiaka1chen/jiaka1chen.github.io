@@ -205,6 +205,14 @@ body {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
+html[data-theme="dark"] .main-column strong {
+  color: #fffaf0;
+  font-weight: 700;
+}
+html[data-theme="dark"] .research-vision { color: #d1ccc3; }
+html[data-theme="dark"] .research-highlight {
+  background-color: color-mix(in srgb, var(--accent) 32%, transparent);
+}
 .research-vision ul { margin: 0.85rem 0 0; padding-left: 1.25rem; }
 .research-vision li + li { margin-top: 0.55rem; }
 .about-background { padding-top: 0.45rem; }
@@ -311,6 +319,7 @@ body {
   font-weight: 600;
   line-height: 1.5;
 }
+.project-card .project-heading h3 { font-size: 1.18rem; line-height: 1.4; }
 .project-meta { margin: 0; color: var(--muted); font-size: 0.85rem; line-height: 1.6; }
 .project-meta strong { font-weight: 600; }
 .project-authors strong { color: var(--text); font-weight: 700; }
