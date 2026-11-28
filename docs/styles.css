@@ -215,6 +215,7 @@ html[data-theme="dark"] .main-column strong {
 html[data-theme="dark"] .research-vision { color: #d1ccc3; }
 .research-vision ul { margin: 0.85rem 0 0; padding-left: 1.25rem; }
 .research-vision li + li { margin-top: 0.55rem; }
+.research-vision ul + p { margin-top: 0.85rem; }
 .about-background { padding-top: 0.45rem; }
 
 .news-list { margin: 0; padding: 0; list-style: none; }
